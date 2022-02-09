@@ -39,6 +39,7 @@ EC2Stack.SSMConnect = aws ssm start-session --target i-0a75fb4f9798ca3d5
 Enjoy!
 
 #### Resources Created
+```
 AWS::CDK::Metadata
 AWS::EC2::Instance
 AWS::EC2::InternetGateway
@@ -54,3 +55,4 @@ AWS::IAM::Policy
 AWS::IAM::Role
 AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
 AWS::SSM::Parameter::Value<String>
+```
