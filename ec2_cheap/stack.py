@@ -6,7 +6,7 @@ from aws_cdk import (
 )
 from constructs import Construct
 
-INSTANCE_TYPE = "c5.xlarge"
+INSTANCE_TYPE = "t3.small"
 USERDATA = """
 #!/bin/bash
 
